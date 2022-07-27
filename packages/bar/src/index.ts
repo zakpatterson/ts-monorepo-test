@@ -1,4 +1,3 @@
-import { meaningOfLife } from "@nighttrax/foo";
+import run from "./base";
 
-// eslint-disable-next-line no-console
-console.log(meaningOfLife);
+run();

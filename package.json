@@ -10,6 +10,7 @@
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "pnpm run -r clean",
     "build": "pnpm run -r build",
+    "start:prod": "pnpm --filter bar run -r start:prod",
     "test": "pnpm run -r test",
     "lint": "eslint --ext js,ts,tsx ."
   },

@@ -10,7 +10,8 @@
     "build": "pnpm run clean && pnpm run compile",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc -p tsconfig.build.json",
-    "prepublishOnly": "pnpm run build"
+    "prepublishOnly": "pnpm run build",
+    "start:prod": "node ./dist/index.js"
   },
   "dependencies": {
     "@nighttrax/foo": "~1.0.0"
